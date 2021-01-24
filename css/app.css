@@ -1,0 +1,698 @@
+/*css chjaramita 18/12/15*/
+/** Global styles **/
+html {
+   
+}
+body{
+	 
+}
+@font-face {
+    font-family: 'lovedbytheking';
+    src: url('../font/lovedbytheking-webfont.eot');
+    src: url('../font/lovedbytheking-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lovedbytheking-webfont.woff2') format('woff2'),
+         url('../font/lovedbytheking-webfont.woff') format('woff'),
+         url('../font/lovedbytheking-webfont.ttf') format('truetype'),
+         url('../font/lovedbytheking-webfont.svg#lovedbytheking') format('svg');
+}
+@font-face {
+    font-family: 'comfortaa';
+    src: url('../font/comfortaa-webfont.eot');
+    src: url('../font/comfortaa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/comfortaa-webfont.woff2') format('woff2'),
+         url('../font/comfortaa-webfont.woff') format('woff'),
+         url('../font/comfortaa-webfont.ttf') format('truetype'),
+         url('../font/comfortaa-webfont.svg#comfortaa') format('svg');
+}
+@font-face {
+    font-family: 'dklemon';
+    src: url('../font/dk_lemon_yellow_sun-webfont.eot');
+    src: url('../font/dk_lemon_yellow_sun-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/dk_lemon_yellow_sun-webfont.woff2') format('woff2'),
+         url('../font/dk_lemon_yellow_sun-webfont.woff') format('woff'),
+         url('../font/dk_lemon_yellow_sun-webfont.ttf') format('truetype'),
+         url('../font/dk_lemon_yellow_sun-webfont.svg#dk_lemon_yellow_sun') format('svg');
+}
+/*#index{
+	 background: url(../img/torre8.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}*/
+
+#video1{/**/
+	position: fixed;
+	left: 0;
+	top:0;
+	min-height:100%;
+	min-width:100%;
+	width:auto;
+	height:auto;
+	z_index:-100;
+	visibility:visible;
+	
+}
+img{
+	display: block;
+    position: relative;
+	
+}
+#cerveza{
+	 background: url(../img/torre1.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#historia{
+	 background: url(../img/torre10.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#fabrica{
+	 background: url(../img/torre11.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#contacto{
+	 background: url(../img/torre4.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#supermapa{
+	 background: url(../img/torre3.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#concurso{
+	 background: url(../img/beer.png) no-repeat fixed center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#ida{
+	 background: url(../img/beer.png) no-repeat fixed center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+#adwords{
+	 background: url(../img/beerfiesta.png) no-repeat fixed center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	min-heigth: 850px;
+	
+}
+.row { max-width: 1850px; }
+
+.no-margin { margin:0; } 
+textarea { min-height:100px; }
+.menu{
+	margin:10px 0px 0px 10px;
+	color:white;
+	font-weight: bold;
+}
+#socialmedia{
+	list-style-type:none;
+	float:right;
+	margin:10px 0px 0px 20px;
+	padding:0;
+	display:block;
+	
+	}
+#socialmedia li {
+	list-style-type:none;
+	float: right;	
+	clear:none;
+	margin:0;
+	padding:0;
+	margin:0px 5px 0px 0px;
+			
+	}
+	
+#socialmediamenu{
+	list-style-type:none;
+		float:right;
+		margin:10px 0px 0px 20px;
+		padding:0;
+		
+	
+	}
+#socialmediamenu li {
+	list-style-type:none;
+			float: right;
+			clear:none;
+			margin:0;
+			padding:0;
+			margin:0px 5px 0px 0px;
+			
+	}	
+#socialmediamenu li a{
+	background:transparent!important;
+	border:none!important;
+}
+.socialcont{
+	color:white;
+	font-weight: bold;
+	
+}
+.logo{margin:0px 0px;}
+
+.title a{color:white;}
+
+/*-nav ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+   
+}
+nav ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   padding:20px 20px;
+   margin:20px 0;
+   position:relative;
+   right:50%;
+}
+nav ul li a {
+   display:block;
+  
+   text-decoration:none;
+  
+  
+   color:black;
+	font-family: ;
+	font-size:30px;
+	text-align:center;
+}
+
+nav ul li a.active,
+nav ul li a.active:hover {
+   
+}
+
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:auto;	
+	 float: left;
+	 position: relative; 
+            left: 50%;
+}
+
+nav ul li  {
+	float: left;
+    position: relative; 
+    right: 50%;
+	text-decoration:none;
+	
+	
+}
+
+nav ul li a {
+	color:white;
+	font-family: 'Vibur';
+	text-align:center;
+	
+	}
+
+*/
+
+/*-------------------------------------------------------*/
+*, *:after, *:before { 
+
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+
+
+.contnedor {	
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+	
+}
+
+.contnedor li {
+	display: inline-block;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+.contnedor li h3{
+	
+	
+	
+}
+
+.contnedor figure {
+	margin: 0;
+	position: relative;
+}
+
+.contnedor figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+
+.contnedor figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	
+}
+
+figcaption span {
+   font-family: 'comfortaa';
+    display: block;
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.contnedor figcaption h1 {
+	font-family:'dklemon';
+	 font-size:30px;
+	 font-weight:bold;
+	 letter-spacing: 3px;
+   text-align:center;
+    margin: 0;
+    padding:10px 0px 10px 0px;
+}
+.contnedor figcaption h2 {
+	font-family:'dklemon';
+	 font-size:30px;
+	 font-weight:bold;
+	 letter-spacing: 3px;
+   text-align:center;
+    margin: 0;
+    padding:10px 0px 10px 0px;
+}
+@media only screen and (max-width: 40em) { /* small --------------------------------- */
+
+.contnedor figcaption h1 {
+	font-family:'dklemon';
+	 font-size:20px;
+	 font-weight:bold;
+	 letter-spacing: 3px;
+   text-align:center;
+    margin: 0;
+    padding:5px 0px 5px 0px;
+}
+.contnedor figcaption h2 {
+	font-family:'dklemon';
+	 font-size:20px;
+	 font-weight:bold;
+	 letter-spacing: 3px;
+   text-align:center;
+    margin: 0;
+    padding:5px 0px 5px 0px;
+}
+figcaption span {
+   font-family: 'comfortaa';
+    display: block;
+    font-size: 15px;
+    margin: 12px 0;
+}
+
+}
+
+
+
+.contnedor figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #e6b141;
+	color: #333;
+
+}
+
+
+/* Caption animación*/
+
+
+.capation li {
+	-webkit-perspective: -1800px;
+	-moz-perspective: 1800px;
+	perspective: 1800px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 0%;
+	perspective-origin: 0 0%;
+}
+
+.capation figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.capation figure > div {
+	overflow: hidden;
+}
+
+.capation figure img {
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+
+.capation figure:hover img
+{
+	-webkit-transform: translateX(23%);
+	-moz-transform: translateX(23%);
+	-ms-transform: translateX(23%);
+	transform: translateX(23%);
+	cursor: pointer;
+}
+
+
+
+.capation figcaption {
+	height: 100%;
+	width: 101%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+
+.capation figure:hover figcaption{
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+
+
+.capation figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+
+.btn_hover:hover {
+	background: white;
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+/*---------------------PALABRAS--------------------*/
+.palabras{
+	font-family: 'comfortaa';
+	font-size: 15px;
+    margin: 12px 5px;
+	color:white;
+}
+.present{
+	color:white;
+	font-family: 'dklemon';
+	letter-spacing: 3px;
+	
+	font-size:55px;
+    margin-top:125px;
+}
+
+.presentimg{
+    margin-top:20px;
+}
+@media only screen and (max-width: 40em) { /* small --------------------------------- */
+
+.present{
+	
+    margin-top:25px;
+}
+
+.presentimg{
+    margin-top:20px;
+}
+
+}
+
+/*-----------------contacto---------------*/
+#map-canvas {
+        height: 400px;
+        margin-top:15px;
+        padding: 0px;
+		border:solid 1px white;
+      }
+#form-contacto label{
+	color:white;
+}
+.palabrascont{
+	font-family: 'comfortaa';
+	font-size: 20px;
+    margin: 12px 5px;
+	color:white;
+}
+/*-----------------supermapa---------------*/
+#map{
+	height: 750px;
+	border:3px solid white;
+	margin:15px 0px;
+	
+}	  
+#primermap{
+	font-family: 'dklemon';
+	letter-spacing: 3px;
+	text-align:center;
+	font-size:35px;
+	color:white;
+} 
+#listasitios{
+	
+	list-style:none!important;
+}
+.link{
+	color:white!important;
+	margin-left:0px!important;
+	
+}
+/*-----------------footer---------------*/
+.footwhite{
+	background:url(../img/black30cent.png) repeat; 
+	display: block;
+    position: relative;
+	
+}
+.footwhite p{
+	display:inline;	
+	color: white!important;
+}
+.priv{
+	
+	
+}
+.priv a{
+	color:white!important;
+	
+}
+/*-----------------concurso---------------*/
+#concurso h3{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+	
+}
+#ida h3{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+	
+}
+#index h3{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+	
+}
+#concurso h2{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:45px;
+	color:#616161;
+
+text-shadow:#e0e0e0 1px 1px 0;
+	
+}
+@media only screen and (max-width: 40em) { /* small --------------------------------- */
+
+#concurso h3{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:35px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+	
+}
+#ida h3{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:35px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+	
+}
+#index h3{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:35px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+	
+}
+#concurso h2{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:35px;
+	color:#616161;
+
+text-shadow:#e0e0e0 1px 1px 0;
+	
+}
+
+}
+.acheunoconcurso{text-align:center!important;}
+.linkconcurso{
+	font-family: 'dklemon';
+	
+	
+	font-size:25px;
+	color:#fff;
+
+text-shadow:#7a7a7a 4px 3px 0;
+	
+}
+/*-------------sorteo-----------------*/
+#sorteo label {
+	color: white;
+	font-size:20px;
+}
+
+#sorteo input{
+	height:100px;
+	font-size:55px;
+	
+}
+#concurso h1{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:55px;
+	color:black;
+
+text-shadow:#e0e0e0 1px 1px 0;
+	
+}
+/*-------------especial ida y vuelta-----------------*/
+
+.presentaida{
+	font-size:80px!important;
+	margin:70px 0px!important;
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:55px;
+	color:black;
+
+text-shadow:#e0e0e0 1px 1px 0;
+}
+#ida h1{
+	font-family: 'dklemon';
+	
+	text-align:center;
+	font-size:55px;
+	color:black;
+
+text-shadow:#e0e0e0 1px 1px 0;
+	
+}
+.cuadrado{
+	
+	
+	margin-top:5px;
+	
+	  opacity:1;
+}
+.cuadrado:hover
+{
+        opacity:0.8;
+		-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+}
